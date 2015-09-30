@@ -9,18 +9,13 @@
 
 require __DIR__.'/vendor/autoload.php';
 
-/**
- * Get all the faces and dump them into an array variable
- * @var [type]
- */
-$faces = require __DIR__.'/src/faces.php';
+use Busayo\ProcessArg;
 
-if( $argv[1] === '-a' || $argv[1] === '--all') {
+/*
+|--------------------------------------------------------------------------
+| Call the ProcessArg Class to take in the commands and process faces
+|--------------------------------------------------------------------------
+*/
+$app = new ProcessArg($argv);
 
-    foreach( $faces as $face ) {
-        echo $face . PHP_EOL;
-    }
-
-    return;
-}
-
+$app->spitOutFaces();
