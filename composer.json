@@ -1,0 +1,18 @@
+{
+    "name": "unicodeveloper/cool-ascii-faces",
+    "description": "Show cool ascii faces in your commandline",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "busayo",
+            "email": "prosperotemuyiwa@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Busayo\\" : "src/"
+        },
+        "classmap": ["src/"]
+    },
+    "require": {}
+}

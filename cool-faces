@@ -1,0 +1,26 @@
+#!/usr/bin/env php
+<?php
+
+/*
+|--------------------------------------------------------------------------
+| Register The Composer Auto Loader
+|--------------------------------------------------------------------------
+*/
+
+require __DIR__.'/vendor/autoload.php';
+
+/**
+ * Get all the faces and dump them into an array variable
+ * @var [type]
+ */
+$faces = require __DIR__.'/src/faces.php';
+
+if( $argv[1] === '-a' || $argv[1] === '--all') {
+
+    foreach( $faces as $face ) {
+        echo $face . PHP_EOL;
+    }
+
+    return;
+}
+
