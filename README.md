@@ -6,6 +6,7 @@
 [![Build Status](https://img.shields.io/travis/busayo/cool-ascii-faces.svg)](https://travis-ci.org/busayo/cool-ascii-faces)
 [![Quality Score](https://img.shields.io/scrutinizer/g/busayo/cool-ascii-faces.svg?style=flat-square)](https://scrutinizer-ci.com/g/busayo/cool-ascii-faces)
 [![Total Downloads](https://img.shields.io/packagist/dt/busayo/cool-ascii-faces.svg?style=flat-square)](https://packagist.org/packages/busayo/cool-ascii-faces)
+![](https://img.shields.io/badge/unicodeveloper-approved-brightgreen.svg)
 
 View very cool faces in your terminal and you can also use them in your application.
 
