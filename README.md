@@ -1,7 +1,6 @@
 # Cool Ascii Faces
 
 [![Latest Stable Version](https://poser.pugx.org/busayo/cool-ascii-faces/v/stable.svg)](https://packagist.org/packages/busayo/cool-ascii-faces)
-[![Latest Unstable Version](https://poser.pugx.org/busayo/cool-ascii-faces/v/unstable.svg)](https://packagist.org/packages/busayo/cool-ascii-faces)
 [![License](https://poser.pugx.org/busayo/cool-ascii-faces/license.svg)](LICENSE.md)
 [![Build Status](https://img.shields.io/travis/busayo/cool-ascii-faces.svg)](https://travis-ci.org/busayo/cool-ascii-faces)
 [![Quality Score](https://img.shields.io/scrutinizer/g/busayo/cool-ascii-faces.svg?style=flat-square)](https://scrutinizer-ci.com/g/busayo/cool-ascii-faces)
