@@ -14,7 +14,7 @@ View very cool faces in your terminal and you can also use them in your applicat
 
 First, pull in the package through Composer.
 
-```js
+```php
 "require": {
     "unicodeveloper/cool-ascii-faces": "1.1.*"
 }
