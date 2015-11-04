@@ -1,6 +1,6 @@
 <?php
 
-namespace Busayo\Test;
+namespace Unicodeveloper\Test;
 
 class CoolFacesTest extends \PHPUnit_Framework_TestCase
 {

@@ -1,9 +1,10 @@
 {
-    "name": "busayo/cool-ascii-faces",
+    "name": "unicodeveloper/cool-ascii-faces",
     "description": "Show cool ascii faces in your commandline",
     "license": "MIT",
     "keywords": [
-        "busayo",
+        "unicodeveloper",
+        "php",
         "ascii",
         "cool",
         "faces",
@@ -12,7 +13,7 @@
     ],
     "authors": [
         {
-            "name": "busayo",
+            "name": "unicodeveloper",
             "email": "prosperotemuyiwa@gmail.com"
         }
     ],
@@ -25,13 +26,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Busayo\\" : "src/"
+            "Unicodeveloper\\" : "src/"
         },
         "classmap": ["src/"]
     },
     "autoload-dev": {
         "psr-4": {
-            "Busayo\\Test\\": "tests"
+            "Unicodeveloper\\Test\\": "tests"
         }
     },
     "scripts": {
